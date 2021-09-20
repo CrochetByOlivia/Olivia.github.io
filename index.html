@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Olivia's Love</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <!-- Project -->
+  <!-- header section starts-->
+  <header>
+    
+    <a href="#" class="logo">Olivia's Love</a>
+    
+    <nav class="navbar">
+      <a href="#home" class="active">home</a>
+      <a href="#home">items</a>
+      <a href="#home">about</a>
+      <a href="#home">menu</a>
+      <a href="#home">reviews</a>
+      <a href="#home">order</a>
+    </nav>
+    
+    <div class="icons">
+      <i class="fas fa-bars" id="menu-bars"></i>
+      <i class="fas fa-search" id="search-icon"></i>
+      <a href="#" class="fas fa-heart"></a>
+      <a href="#" class="fas fa-shopping-cart"></a>
+    </div>
+    
+    
+  </header>
+  
+  <form action="" id="search-form">
+    <input type="search" placeholder="search here..." id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+  </form>
+  
+  <section class="home" id="home">
+    <div class="swiper-container home-slider">
+      
+      <div class="swiper-wrapper wrapper">
+        <div class="swiper-slide slide">
+          
+          <div class="content">
+            <span>our special item</span>
+            <h3>Suncheck 1</h3>
+            <p>beautiful design and blah blah blah blah blah blah blah blah blah blah</p>
+            <a href="#" class="btn">order now</a>
+          </div>
+          <div class="image">
+            <img src="home-img-1.jpg" alt="">
+          </div>
+        </div>
+        
+        <div class="swiper-slide slide">
+          <div class="content">
+            <span>our special item</span>
+            <h3>Suncheck 2</h3>
+            <p>beautiful design and blah blah blah blah blah blah blah blah blah blah</p>
+            <a href="#" class="btn">order now</a>
+          </div>
+          <div class="image">
+            <img src="home-img-2.jpg" alt="">
+          </div>
+        </div> 
+        
+        <div class="swiper-slide slide">
+          <div class="content">
+            <span>our special item</span>
+            <h3>Suncheck 3</h3>
+            <p>beautiful design and blah blah blah blah blah blah blah blah blah blah</p>
+            <a href="#" class="btn">order now</a>
+          </div>
+          <div class="image">
+            <img src="home-img-3.jpg" alt="">
+          </div>
+        </div>
+       
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+  
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
